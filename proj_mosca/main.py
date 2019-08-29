@@ -60,7 +60,7 @@ for i in range(9):
     plt.title(titles[i],fontsize=8)
     plt.xticks([]),plt.yticks([])
 
-plt.savefig('resultados/'+fname+'.jpg', dpi=500)
+plt.savefig('resultados/'+fname+'.jpg', dpi=600)
 plt.show()
 
 key = cv2.waitKey(0)
