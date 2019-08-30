@@ -9,16 +9,19 @@ from boi.b_mascara_bovino import mascara_bovino
 from mosca.m_identifica_bordas import identifica_bordas
 from mosca.m_melhora_imagem import melhora_imagem
 from mosca.m_identifica_mosca import identifica_mosca
+from mosca.m_ident import id_mosca
 from matplotlib import pyplot as plt
 from datetime import datetime
 
 # Atributos
-img = 'image/img4.jpg'
+img = 'image/img16.jpg'
 data = datetime.now()
 fname = data.strftime('%Y-%m-%d-%H-%M-%S')
-suav_bov = [3,3]
-w_erode = [3,3,2]
-w_dilate = [5,5,10]
+suav_bov = [7,7]
+w_erode = [3,3,1]
+w_dilate = [7,7,10]
+m_sobelx = [1,0,3,0.7]
+m_sobely = [0,1,3,0.7]
 
 # Leitura da Imagem
 original = ler_imagem(img)
@@ -37,18 +40,20 @@ water = watershed(regiao, imagem, w_erode, w_dilate)
 mascara = mascara_bovino(water[0], water[1], imagem)
 
 # Detecta as bordas do bovino
-bordas = identifica_bordas(mascara)
+bordas = identifica_bordas(mascara,m_sobelx,m_sobely)
 
 # Filtros de melhoramento na imagem
 melhora = melhora_imagem(bordas)
 
 # Identifica as moscas-do-chifre e realiza a contagem
+id_mosca(melhora,imagem)
 ident = identifica_mosca(melhora, imagem)
 total = ident[1]
 resultado = escreve(ident[0], total)
 
 # Imprime as configurações utilizadas na imagem
-config = ['Imagem: '+str(img), 'Suavizacao Bov: GaussianBlur '+str(suav_bov),"Dilatacao: "+str(w_dilate), "Erosao: "+str(w_erode)]
+config = ['Imagem: '+str(img), 'Suavizacao Bov: GaussianBlur '+str(suav_bov),"Dilatacao: "+str(w_dilate), "Erosao: "+str(w_erode),
+          "Sobel x: "+str(m_sobelx), "Sobel y: "+str(m_sobely)]
 configuracao = configuracao(config)
 
 
@@ -60,8 +65,8 @@ for i in range(9):
     plt.title(titles[i],fontsize=8)
     plt.xticks([]),plt.yticks([])
 
-plt.savefig('resultados/'+fname+'.jpg', dpi=600)
-plt.show()
+#plt.savefig('resultados/'+fname+'.jpg', dpi=600)
+#plt.show()
 
 key = cv2.waitKey(0)
 if key == 27:

@@ -10,7 +10,7 @@ def configuracao(conf):
     cv2.rectangle(img,(0,0),(largura,altura),(255,255,255), -1)
     #cv2.rectangle(img,(0,0),(largura-5,altura-5),(255,255,255),5)
 
-    for i in range (4):
+    for i in range (6):
         fonte = cv2.FONT_HERSHEY_DUPLEX
         cv2.putText(img,conf[i],(10,(1+i)*70), fonte, 0.95, (0,0,0), 1, cv2.LINE_AA)
 

@@ -1,7 +1,6 @@
 import cv2
 
-def identifica_mosca(mosca,m):
-    imgcopy = m
+def identifica_mosca(mosca,imgcopy):
     r, contours, hi = cv2.findContours(mosca, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
     # numero de objetos detectados dentro da imagem
@@ -12,6 +11,7 @@ def identifica_mosca(mosca,m):
         epsilon = 0.01 * cv2.arcLength(cnt, True)
         c = cv2.approxPolyDP(cnt, epsilon, True)
         (x, y, w, h) = cv2.boundingRect(c)
+
         # porcentagem do retangulo preenchido pelo contorno
         perc = w / h if h > 0 else 0;
         perimeter = cv2.arcLength(cnt, True)
