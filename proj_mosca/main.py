@@ -52,7 +52,7 @@ config = ['Imagem: '+str(img), 'Suavizacao Bov: GaussianBlur '+str(suav_bov),"Di
 configuracao = configuracao(config)
 
 
-titles = ['Original','Pre Processamento','Regiao interesse','Watershed','Mascara','Bordas','Imagem Melhorada','Resultado','Configuração']
+titles = ['Original','Pre Processamento','Regiao Interesse','Watershed','Mascara','Bordas','Imagem Melhorada','Resultado','Configuração']
 images = [original, pre, regiao, water[0], mascara, bordas, melhora, resultado,configuracao]
 
 for i in range(9):
