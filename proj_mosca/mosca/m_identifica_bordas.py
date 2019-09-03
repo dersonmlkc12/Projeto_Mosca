@@ -4,6 +4,12 @@ def identifica_bordas(img_bovino,x,y):
     # Converte a imagem para tons de cinza
     cinza = cv2.cvtColor(img_bovino, cv2.COLOR_BGR2GRAY)
 
+    # Equaliza Histograma
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    cinza = clahe.apply(cinza)
+
+    cinza = cv2.GaussianBlur(cinza, (5, 5), 0)
+
     # Detector de bordas Sobel
     ddepth = cv2.CV_16S
     grad_x = cv2.Sobel(cinza, ddepth, x[0], x[1], ksize=x[2], scale=1, delta=0, borderType=cv2.BORDER_DEFAULT)
