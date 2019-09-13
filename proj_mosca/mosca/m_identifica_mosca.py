@@ -1,35 +1,28 @@
 import cv2
+import numpy as np
 
-def identifica_mosca(mosca,imgcopy):
-    r, contours, hi = cv2.findContours(mosca, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+def identifica_mosca(labels,img_bovino,img):
+    total = 0
+    for label in np.unique(labels):
+        if label == 0:continue
 
-    # numero de objetos detectados dentro da imagem
-    total = 0;
+        mask = np.zeros(img_bovino.shape,dtype="uint8")
+        mask[labels == label] = 255
+        r, cnts, hi = cv2.findContours(mask.copy(),cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
 
-    # verificar contornos
-    for cnt in contours:
-        epsilon = 0.01 * cv2.arcLength(cnt, True)
-        c = cv2.approxPolyDP(cnt, epsilon, True)
-        (x, y, w, h) = cv2.boundingRect(c)
+        for cn in cnts:
+            epsilon = 0.025 * cv2.arcLength(cn, True)
+            c = cv2.approxPolyDP(cn, epsilon, True)
+            (x, y, w, h) = cv2.boundingRect(c)
 
-        # porcentagem do retangulo preenchido pelo contorno
-        perc = w / h if h > 0 else 0;
-        perimeter = cv2.arcLength(cnt, True)
+            perc = w / h if h > 0 else 0;
+            perimeter = cv2.arcLength(cn, True)
 
-        # remover partes que nao sao moscas (muito grandes)
-        if perimeter > 0.1 and perimeter <= 40 and perc < 4:
-            # desenha cada retangulo de uma cor aleatoria na imagem final
-            # rcolor = (randint(0, 255), randint(0, 255), randint(0, 255))
-            rcolor = (255, 0, 0)
-            cv2.drawContours(imgcopy, [c], -1, rcolor, 2)
-            cv2.rectangle(imgcopy, (x, y), (x + w, y + h), rcolor)
-            fonte = cv2.FONT_HERSHEY_SIMPLEX
-            cor = (0, 0, 255)
-            #cv2.putText(imgcopy, str(total), (x, y), fonte, 0.3, cor, 0, cv2.LINE_AA)
-            #print("Contorno", total, "perimetro: ", perimeter, "perc: ", perc)
-            total += 1
+            if perimeter > 0 and perimeter <= 40:
+                c = max(cnts, key=cv2.contourArea)
+                ((x,y), r) = cv2.minEnclosingCircle(c)
+                cv2.circle(img, (int(x),int(y)),int(r),(0, 0, 255),2)
+                #cv2.putText(img, str(total), (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 0.3, (255, 0, 0), cv2.LINE_AA)
+                total += 1
 
-    #cv2.imshow("Imagem final", imgcopy)
-    #print("contador", total)
-
-    return imgcopy,total
+    return img, total

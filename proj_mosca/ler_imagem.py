@@ -5,5 +5,6 @@ def ler_imagem(caminho):
     img = cv2.imread(caminho)
 
     # Redimensiona a imagem // Tamanho original 4160 x 3120
-    img = cv2.resize(img, (1040, 780), interpolation=cv2.INTER_NEAREST)#INTER_AREA 1040, 780
-    return img
+    resized = cv2.resize(img, None, fx = 0.40, fy = 0.40, interpolation = cv2.INTER_NEAREST)
+
+    return resized
