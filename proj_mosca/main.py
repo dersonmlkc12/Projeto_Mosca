@@ -16,14 +16,14 @@ from matplotlib import pyplot as plt
 from datetime import datetime
 
 # Atributos
-img = 'image/img16.jpg'
+img = 'image/img1.jpg'
 data = datetime.now()
 fname = data.strftime('%Y-%m-%d-%H-%M-%S')
 suav_bov = [7,7]
-w_erode = [3,3,1]
-w_dilate = [9,9,12]
-m_sobelx = [1,0,3,0.3]
-m_sobely = [0,1,3,0.3]
+w_erode = [2,2,1]
+w_dilate = [22,22,6]
+m_sobelx = [1,0,7,0.3]
+m_sobely = [0,1,7,0.3]
 
 # Leitura da Imagem
 original = ler_imagem(img)

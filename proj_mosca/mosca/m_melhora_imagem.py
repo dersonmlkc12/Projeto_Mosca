@@ -15,4 +15,5 @@ def melhora_imagem(moscas):
 
     sure_fg = np.uint8(sure_fg)
 
+
     return sure_fg

@@ -9,6 +9,7 @@ def b_pre_processamento(img,s):
     imgCinza = clahe.apply(imgCinza)
 
     # Suavizacao da imagem
-    imgSuav = cv2.GaussianBlur(imgCinza, (s[0], s[1]), 2)
+    #imgSuav = cv2.blur(imgCinza,(7,7))
+    imgSuav = cv2.GaussianBlur(imgCinza, (3, 3), 1)
 
     return imgSuav
