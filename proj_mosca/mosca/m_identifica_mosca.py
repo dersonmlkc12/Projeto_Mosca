@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import imutils
 
-def identifica_mosca(lab,img_bovino,img):
+def identifica_mosca(lab,img_bovino,img,per):
     total = 0
     for label in np.unique(lab):
         if label == 0: continue
@@ -15,7 +15,7 @@ def identifica_mosca(lab,img_bovino,img):
         c = max(cnts, key=cv2.contourArea)
         perimeter = cv2.arcLength(c, True)
 
-        if perimeter > 10 and perimeter < 35:
+        if perimeter > per[0] and perimeter < per[1]:
             ((x, y), r) = cv2.minEnclosingCircle(c)
             cv2.circle(img, (int(x), int(y)), int(r), (0, 0, 255), 2)
             #cv2.putText(img, str(total), (int(x), int(y)),cv2.FONT_HERSHEY_SIMPLEX, 0.3, (255, 0, 0), 1)

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from skimage import measure
 
-def regiao_int(imagem,img):
+def regiao_int(imagem,img,pix):
     # Binarizacao da imagem
     ret, thresh = cv2.threshold(imagem, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
@@ -23,8 +23,9 @@ def regiao_int(imagem,img):
         labelMask[labels == label] = 255
         numPixels = cv2.countNonZero(labelMask)
         #print("pixels", numPixels)
+
         # verifica o numero de  pixels de cada componente
-        if numPixels > 20 and numPixels < 500:
+        if numPixels > pix[0] and numPixels < pix[1]:
             mask = cv2.add(mask, labelMask)
 
     # Mascara de recorte do bovino na imagem de entrada
