@@ -1,14 +1,24 @@
 import cv2
+import numpy as np
 
-def identifica_bordas(img_bovino,bord):
+def identifica_bordas(img_bovino,bord,img):
     # Converte a imagem para tons de cinza
     cinza = cv2.cvtColor(img_bovino, cv2.COLOR_BGR2GRAY)
 
     # Suavização
-    cinza = cv2.blur(cinza, (3, 3))
-    #cinza = cv2.GaussianBlur(cinza, (5, 5), 1)
+    blur = cv2.GaussianBlur(cinza,(41,41),0)
 
-    # Detecta as bordas
-    edges = cv2.Canny(cinza, bord[0], bord[1])
+    filtered = cinza - blur
+    filtered = filtered + 127 * np.ones(cinza.shape, np.uint8)
 
-    return edges
+    res = filtered.copy()
+
+    for i in range(0, res.shape[0]):
+        for j in range(0, res.shape[1]):
+            (r) = res[i, j]
+            if (r < 110):
+                res[i, j] = (0)
+            else:
+                res[i, j] = (255)
+
+    return filtered, res

@@ -4,7 +4,7 @@ from skimage import measure
 
 def regiao_int(imagem,img,pix):
     # Binarizacao da imagem
-    ret, thresh = cv2.threshold(imagem, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    ret, thresh = cv2.threshold(imagem, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
 
     # Rotula as regiões conectadas da matriz(imagem)
     labels = measure.label(thresh, neighbors=8, background=0)
@@ -22,10 +22,10 @@ def regiao_int(imagem,img,pix):
         labelMask = np.zeros(thresh.shape, dtype="uint8")
         labelMask[labels == label] = 255
         numPixels = cv2.countNonZero(labelMask)
-        #print("pixels", numPixels)
 
         # verifica o numero de  pixels de cada componente
         if numPixels > pix[0] and numPixels < pix[1]:
+            #print("pixels", numPixels)
             mask = cv2.add(mask, labelMask)
 
     # Mascara de recorte do bovino na imagem de entrada

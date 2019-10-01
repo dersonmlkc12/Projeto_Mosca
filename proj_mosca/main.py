@@ -16,18 +16,29 @@ from mosca.m_identifica_mosca import identifica_mosca
 
 from matplotlib import pyplot as plt
 from datetime import datetime
+from os import listdir
+from os.path import isfile, join
 
 # Atributos
-img = 'image/img16.jpg'
+img = ''
 data = datetime.now()
 fname = data.strftime('%Y-%m-%d-%H-%M-%S')
+inputPath = 'image/'
+outputPath = 'resultados/'
+img = 'image/img16.jpg'
 
+# Constantes
 suav_bov = [7,7]        # Kernel para suavização da imagem do bovino
-w_erode = [2,2,1]       # Kernel e repetição para aplicação de erosão do contorno do bovino
+w_erode = [3,3,1]       # Kernel e repetição para aplicação de erosão do contorno do bovino
 w_dilate = [22,22,6]    # Kernel e repetição para aplicação de dilatação do contorno do bovino
 m_bordas = [60, 120]    # Limiares para extração de bordas das moscas
-pix_cont = [20,500]     # Limiares de pixels de cada borda
-perim = [10,60]         # Limiares do perimetro da borda identificada como mosca do chifre
+pix_cont = [2,50]       # Limiares de pixels de cada borda
+perim = [2,30]          # Limiares do perimetro da borda identificada como mosca do chifre
+
+#onlyfiles = [ f for f in listdir(inputPath) if isfile(join(inputPath, f))]
+
+#for n in range(0, len(onlyfiles)):
+#img = inputPath + onlyfiles[n]
 
 # Leitura da Imagem
 original = ler_imagem(img)
@@ -46,10 +57,10 @@ water = watershed(regiao, imagem, w_erode, w_dilate)
 mascara = mascara_bovino(water[0], water[1], imagem)
 
 # Detecta as bordas da imagem
-bordas = identifica_bordas(mascara,m_bordas)
+bordas = identifica_bordas(mascara,m_bordas,original)
 
 # Filtros de melhoramento na imagem
-melhora = melhora_imagem(bordas)
+melhora = melhora_imagem(bordas[1])
 
 # Limpa contornos do bovino
 contornos = regiao_int(melhora,original,pix_cont)
@@ -61,9 +72,10 @@ total = ident[1]
 resultado = escreve(ident[0], total)
 
 # Imprime as configurações utilizadas na imagem
-config = ['Imagem: '+str(img), 'Resolucao: '+str(original.shape), 'Suavizacao Bov: GaussianBlur '+str(suav_bov),"Dilatacao: "+str(w_dilate),
-          "Erosao: "+str(w_erode),"Bordas: "+str(m_bordas),"Pixels do contorno: "+str(pix_cont),
-          "Perimetro das bordas: "+str(perim)]
+config = ['Imagem: '+str(img), 'Resolucao: '+str(original.shape), 'Suavizacao Bov: GaussianBlur '+str(suav_bov),
+          'Dilatacao: '+str(w_dilate),'Erosao: '+str(w_erode),'Bordas: '+str(m_bordas),
+          'Pixels do contorno: '+str(pix_cont),'Perimetro das bordas: '+str(perim)]
+
 configuracao = configuracao(config)
 
 # Converte imagens para RGB
@@ -71,17 +83,18 @@ original = cv2.cvtColor(original,cv2.COLOR_BGR2RGB)
 mascara = cv2.cvtColor(mascara,cv2.COLOR_BGR2RGB)
 resultado = cv2.cvtColor(resultado,cv2.COLOR_BGR2RGB)
 
-titles = ['Original','Pre Processamento','Regiao Interesse','Watershed','Mascara','Bordas','Imagem Melhorada','Contornos','Resultado','Configuração']
-images = [original, pre, regiao, water[0], mascara, bordas, melhora, contornos, resultado, configuracao]
+titles = ['Original','Pre Processamento','Regiao Interesse','Watershed','Mascara','Filtro','Bordas','Imagem Melhorada','Contornos','Resultado','Configuração']
+images = [original, pre, regiao, water[0], mascara, bordas[0], bordas[1], melhora, contornos, resultado, configuracao]
+configuracao = ''
 
-
-for i in range(10):
+for i in range(11):
     plt.subplot(3,4,i+1), plt.imshow(images[i],'gray')
     plt.title(titles[i],fontsize=8)
     plt.xticks([]),plt.yticks([])
 
-plt.savefig('resultados/'+fname+'.jpg', dpi=1200)
-plt.show()
+plt.savefig(outputPath+fname+'.jpg', dpi=1200)
+print('Salvo ', img)
+#plt.show()
 
 key = cv2.waitKey(0)
 if key == 27:
