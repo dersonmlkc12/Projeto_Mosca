@@ -4,10 +4,10 @@ from skimage import measure
 
 def regiao_int(imagem,img,pix):
     # Binarizacao da imagem
-    ret, thresh = cv2.threshold(imagem, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    ret, thresh = cv2.threshold(imagem, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
     # Rotula as regiões conectadas da matriz(imagem)
-    labels = measure.label(thresh, neighbors=8, background=0)
+    labels = measure.label(thresh, neighbors=4, background=255)
 
     # Criação de um arranjo de qualquer formato contendo apenas zeros
     mask = np.zeros(thresh.shape, dtype="uint8")
@@ -22,10 +22,11 @@ def regiao_int(imagem,img,pix):
         labelMask = np.zeros(thresh.shape, dtype="uint8")
         labelMask[labels == label] = 255
         numPixels = cv2.countNonZero(labelMask)
+        #print("pixels", numPixels)
 
         # verifica o numero de  pixels de cada componente
         if numPixels > pix[0] and numPixels < pix[1]:
-            #print("pixels", numPixels)
+
             mask = cv2.add(mask, labelMask)
 
     # Mascara de recorte do bovino na imagem de entrada
@@ -37,9 +38,11 @@ def regiao_int(imagem,img,pix):
     for i in range(0, res.shape[0]):
         for j in range(0, res.shape[1]):
             (b, g, r) = res[i, j]
-            if (r > 127 and g > 127 and  r > 127):
+            if (r > 110 and g > 110 and  r > 110):
                 masc[i, j] = (0, 0, 0)
 
     masc = cv2.cvtColor(masc, cv2.COLOR_BGR2GRAY)
+
+    ret, masc = cv2.threshold(masc, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
     return masc

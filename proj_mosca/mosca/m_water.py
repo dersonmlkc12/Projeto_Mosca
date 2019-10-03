@@ -9,9 +9,12 @@ def waterb(contor):
 
     d = ndimage.distance_transform_edt(thresh)
 
-    localMax = peak_local_max(d,indices=False, min_distance=1,labels=thresh)
+    localMax = peak_local_max(d,indices=False, min_distance=2,labels=thresh)
 
     markers = ndimage.label(localMax, structure=np.ones((3,3)))[0]
     labels = watershed(-d,markers,mask=thresh)
+
+
+
 
     return labels

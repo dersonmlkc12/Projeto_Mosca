@@ -1,4 +1,5 @@
 import cv2
+import numpy as np
 
 def b_pre_processamento(img,s):
     # Transforma a imagem em tons de cinza
@@ -9,7 +10,7 @@ def b_pre_processamento(img,s):
     imgCinza = clahe.apply(imgCinza)
 
     # Suavizacao da imagem
-    #imgSuav = cv2.blur(imgCinza,(7,7))
-    imgSuav = cv2.GaussianBlur(imgCinza, (3, 3), 1)
+    #imgSuav = cv2.GaussianBlur(imgCinza, (3, 3), 1)
+    imgSuav = cv2.bilateralFilter(imgCinza, 7, 25, 25)#Bilateral
 
     return imgSuav

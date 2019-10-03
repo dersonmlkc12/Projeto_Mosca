@@ -11,7 +11,9 @@ def regiao_interesse(imagem):
 
     # Criação de um arranjo de qualquer formato contendo apenas zeros
     mask = np.zeros(thresh.shape, dtype="uint8")
-    cont = 20000
+
+    cont = 0
+    temp = ''
 
     # Laco sobre os componentes encontrados da imagem
     for label in np.unique(labels):
@@ -24,8 +26,9 @@ def regiao_interesse(imagem):
         numPixels = cv2.countNonZero(labelMask)
 
         # verifica o componente com o maior numero de  pixels
-        if numPixels > 500000:
-            if numPixels >= cont:
-                mask = cv2.add(mask, labelMask)
+        if numPixels >= cont:
+                temp = labelMask
                 cont = numPixels
+
+    mask = cv2.add(mask, temp)
     return mask

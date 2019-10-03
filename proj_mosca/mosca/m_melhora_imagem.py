@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 def melhora_imagem(moscas):
+
     kernel = np.ones((3, 3), np.uint8)
     opening = cv2.morphologyEx(moscas, cv2.MORPH_CLOSE, kernel, iterations=1)
 
@@ -11,3 +12,4 @@ def melhora_imagem(moscas):
     sure_fg = np.uint8(sure_fg)
 
     return sure_fg
+

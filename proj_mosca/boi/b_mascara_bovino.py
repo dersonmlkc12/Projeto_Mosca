@@ -5,7 +5,7 @@ def mascara_bovino(water,water1,img):
 
     # Mascara de recorte do bovino na imagem de entrada
     res = cv2.bitwise_and(img, img, mask=thresh)
-    res[water1 == -5] = [255, 255, 255]
+    res[water1 == -1] = [255, 255, 255]
 
     masc = res.copy()
 
