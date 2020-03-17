@@ -1,24 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/proj_mosca/mosca/m_water.py" line="7" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/proj_mosca/main.py" line="30" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12355d9a-6fde-436f-b5ee-a9d6af9cef3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/proj_mosca/parse_labelme_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj_mosca/testes/experimento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj_mosca/testes/split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/boi/b_mascara_bovino.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/boi/b_mascara_bovino.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/boi/b_pre_processamento.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/boi/b_pre_processamento.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/boi/b_regiao_interesse.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/boi/b_regiao_interesse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_mosca/boi/segmenta_bovino.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_mosca/configuracao.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/configuracao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/escreve_imagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/escreve_imagem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/image/img9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/image/img9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/ler_imagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/ler_imagem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/conta_mosca.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/m_contornos.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/mosca/m_contornos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/m_melhora_imagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/mosca/m_melhora_imagem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/m_water.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_mosca/mosca/m_water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/mosca/m_water.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_mosca/testes/experimentos.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,39 +128,45 @@
     <session id="-1880421011">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.21" value="4" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.23" value="5" />
+          <entry key="project.open.time.24" value="4" />
+          <entry key="project.open.time.25" value="5" />
+          <entry key="project.open.time.26" value="4" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.72" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="1" />
-          <entry key="py" value="278" />
+          <entry key="py" value="407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="278" />
+          <entry key="Python" value="407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="4" />
-          <entry key="py" value="18174" />
-          <entry key="txt" value="96" />
+          <entry key="dummy" value="36" />
+          <entry key="py" value="22736" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="100" />
-          <entry key="Python" value="18174" />
+          <entry key="PLAIN_TEXT" value="142" />
+          <entry key="Python" value="22736" />
         </counts>
       </usages-collector>
     </session>
@@ -148,56 +177,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py">
+        <entry file="file://$PROJECT_DIR$/proj_mosca/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_melhora_imagem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_contornos.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1570132490379" expanded="true" signature="115:116" ph="..." />
-              </folding>
+            <state relative-caret-position="952">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proj_mosca/main.py">
+        <entry file="file://$PROJECT_DIR$/proj_mosca/parse_labelme_xml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-749">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="n#!!doc" />
-              </folding>
+            <state relative-caret-position="765">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -224,7 +216,11 @@
       <find>water</find>
       <find>labelm</find>
       <find>m_bordas</find>
+      <find>suav_bov</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca\validacao\annotations</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -234,13 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/teste1/experimento2.py" />
-        <option value="$PROJECT_DIR$/teste1/experimento1.py" />
-        <option value="$PROJECT_DIR$/teste1/proj_removeFundo.py" />
-        <option value="$PROJECT_DIR$/teste1/proj_superpixel.py" />
-        <option value="$PROJECT_DIR$/teste1/image/teste_HSV.py" />
-        <option value="$PROJECT_DIR$/teste1/t.py" />
-        <option value="$PROJECT_DIR$/teste1/xx.py" />
         <option value="$PROJECT_DIR$/teste1/q.py" />
         <option value="$PROJECT_DIR$/teste1/cont.py" />
         <option value="$PROJECT_DIR$/teste1/teste_HSV.py" />
@@ -268,31 +257,38 @@
         <option value="$PROJECT_DIR$/proj_mosca/mosca/m_ident.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/conta_mosca_bkp.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/water.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/escreve_imagem.py" />
         <option value="$PROJECT_DIR$/proj_mosca/testes/teste2.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/conta_mosca.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/m_watershed.py" />
         <option value="$PROJECT_DIR$/proj_mosca/boi/b_watershed.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/main2.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/boi/b_pre_processamento.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/boi/b_mascara_bovino.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/ler_imagem.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/m_water.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/boi/b_regiao_interesse.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py" />
         <option value="$PROJECT_DIR$/proj_mosca/configuracao.py" />
-        <option value="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/boi/b_mascara_bovino.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/boi/b_regiao_interesse.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/boi/b_pre_processamento.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/m_contornos.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/escreve_imagem.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/testes/experimentos.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/testes/main.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/validacao/parse_labelme_xml.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/testes/split.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/main2.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/testes/experimento.py" />
+        <option value="E:/Formação Academica/UFMS/TCC/Resultados/proj_mosca_v1/ler_imagem.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/ler_imagem.py" />
         <option value="$PROJECT_DIR$/proj_mosca/mosca/m_melhora_imagem.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py" />
         <option value="$PROJECT_DIR$/proj_mosca/main.py" />
+        <option value="$PROJECT_DIR$/proj_mosca/parse_labelme_xml.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-310" />
-    <option name="y" value="231" />
-    <option name="width" value="1372" />
-    <option name="height" value="733" />
+    <option name="x" value="-11" />
+    <option name="y" value="1" />
+    <option name="width" value="664" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -302,7 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,22 +310,11 @@
               <item name="Projeto_Mosca" type="462c0819:PsiDirectoryNode" />
               <item name="proj_mosca" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Projeto_Mosca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto_Mosca" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_mosca" type="462c0819:PsiDirectoryNode" />
-              <item name="boi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projeto_Mosca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projeto_Mosca" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_mosca" type="462c0819:PsiDirectoryNode" />
-              <item name="mosca" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,16 +324,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca" />
+      <recent name="C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca\validacao" />
       <recent name="C:\Users\Anderson\PycharmProjects\Teste\proj_mosca" />
       <recent name="C:\Users\Anderson\PycharmProjects\Teste\teste1" />
       <recent name="C:\Users\Anderson\PycharmProjects\Teste\VisaoComputacional" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca" />
+      <recent name="C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca\validacao\annotations" />
+      <recent name="C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca\validacao" />
       <recent name="C:\Users\Anderson\PycharmProjects\Projeto_Mosca\proj_mosca\testes" />
       <recent name="C:\Users\Anderson\PycharmProjects\Teste\proj_mosca\mosca" />
-      <recent name="C:\Users\Anderson\PycharmProjects\Teste\proj_mosca\testes" />
-      <recent name="C:\Users\Anderson\PycharmProjects\Teste\proj_mosca\boi" />
-      <recent name="C:\Users\Anderson\PycharmProjects\Teste\proj_mosca\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,7 +351,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="m_identifica_bordas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="experimento" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projeto_Mosca" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -373,11 +359,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj_mosca/mosca" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj_mosca/testes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj_mosca/testes/experimento.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -386,7 +372,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="m_identifica_mosca" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ler_imagem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Projeto_Mosca" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -394,32 +380,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj_mosca/mosca" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="E:/Formação Academica/UFMS/TCC/Resultados/proj_mosca_v1" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="m_water" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Projeto_Mosca" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj_mosca/mosca" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj_mosca/mosca/m_water.py" />
+      <option name="SCRIPT_NAME" value="E:/Formação Academica/UFMS/TCC/Resultados/proj_mosca_v1/ler_imagem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,20 +435,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Projeto_Mosca" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proj_mosca/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proj_mosca/testes/split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.m_water" />
-      <item itemvalue="Python.m_identifica_mosca" />
+      <item itemvalue="Python.split" />
       <item itemvalue="Python.main2" />
-      <item itemvalue="Python.m_identifica_bordas" />
+      <item itemvalue="Python.experimento" />
+      <item itemvalue="Python.ler_imagem" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.m_identifica_bordas" />
+        <item itemvalue="Python.ler_imagem" />
         <item itemvalue="Python.main2" />
-        <item itemvalue="Python.m_identifica_mosca" />
-        <item itemvalue="Python.m_water" />
+        <item itemvalue="Python.experimento" />
+        <item itemvalue="Python.split" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569940061591</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="03-10-2019">
+      <created>1570135121303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570135121303</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -582,22 +575,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48131868" visible="true" weight="0.19791667" />
-      <window_info id="Structure" order="1" sideWeight="0.51868135" side_tool="true" weight="0.19791667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4783784" visible="true" weight="0.1748512" />
+      <window_info id="Structure" order="1" sideWeight="0.52162164" side_tool="true" weight="0.16071428" />
       <window_info id="Favorites" order="2" sideWeight="0.512987" weight="0.22098215" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49702382" visible="true" weight="0.2700491" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627978" weight="0.2782324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32986626" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029762" side_tool="true" weight="0.39443535" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5037202" side_tool="true" weight="0.31260228" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -653,7 +646,8 @@
     <MESSAGE value="18-09-2019" />
     <MESSAGE value="18-09-2019-alterações-importantes" />
     <MESSAGE value="01-10-2019-alterações" />
-    <option name="LAST_COMMIT_MESSAGE" value="01-10-2019-alterações" />
+    <MESSAGE value="03-10-2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="03-10-2019" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,10 +669,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/teste1/watershed.py" />
-    <entry file="file://$PROJECT_DIR$/teste1/watershead1.py" />
-    <entry file="file://$PROJECT_DIR$/teste1/proj_removeFundo.py" />
-    <entry file="file://$PROJECT_DIR$/teste1/proj_conectaComponentes.py" />
     <entry file="file://$PROJECT_DIR$/teste1/proj_watershed.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/skimage/morphology/watershed.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,42 +704,23 @@
     <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_ident.py" />
     <entry file="file://$USER_HOME$/Desktop/conta_mosca - bkp.py" />
     <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/conta_mosca_bkp.py" />
-    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/teste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proj_mosca/testes/teste2.py" />
-    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/matriz.py">
+    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/conta_mosca.py" />
+    <entry file="file://E:/Formação Academica/UFMS/Visão Computacional/Atividades/Segmentação Webcam/segmentacao_webcam.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/main2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/boi/segmenta_bovino.py" />
+    <entry file="file://$PROJECT_DIR$/../proj_mosca/mosca/conta_mosca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="171">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/experimentos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/escreve_imagem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/conta_mosca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_water.py" />
     <entry file="file://$PROJECT_DIR$/proj_mosca/testes/m_watershed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -757,69 +728,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Formação Academica/UFMS/Visão Computacional/Atividades/Segmentação Webcam/segmentacao_webcam.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/main2.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/xml/etree/ElementTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="585" selection-start-line="585" selection-end-line="585" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/boi/segmenta_bovino.py">
+    <entry file="file://$PROJECT_DIR$/proj_mosca/escreve_imagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="85">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/main2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/boi/b_pre_processamento.py">
+    <entry file="file://$PROJECT_DIR$/proj_mosca/configuracao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="102" column="36" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/matriz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/testes/experimento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Formação Academica/UFMS/TCC/Resultados/proj_mosca_v1/ler_imagem.py" />
     <entry file="file://$PROJECT_DIR$/proj_mosca/ler_imagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="70" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/boi/b_watershed.py">
+    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_melhora_imagem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_mosca/boi/b_mascara_bovino.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/boi/b_pre_processamento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -830,73 +820,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_water.py">
+    <entry file="file://$PROJECT_DIR$/proj_mosca/boi/b_watershed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1570047728812" expanded="true" signature="160:161" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../proj_mosca/mosca/conta_mosca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="61" column="59" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/configuracao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_identifica_mosca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1570132490379" expanded="true" signature="115:116" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_melhora_imagem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_contornos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/mosca/m_identifica_bordas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proj_mosca/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="n#!!doc" />
-          </folding>
+        <state relative-caret-position="952">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_mosca/parse_labelme_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
         </state>
       </provider>
     </entry>

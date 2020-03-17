@@ -7,7 +7,7 @@ def regiao_interesse(imagem):
     ret, thresh = cv2.threshold(imagem, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
     # Rotula as regiões conectadas da matriz(imagem)
-    labels = measure.label(thresh, neighbors=8, background=0)
+    labels = measure.label(thresh, neighbors=4, background=0)
 
     # Criação de um arranjo de qualquer formato contendo apenas zeros
     mask = np.zeros(thresh.shape, dtype="uint8")
@@ -31,4 +31,5 @@ def regiao_interesse(imagem):
                 cont = numPixels
 
     mask = cv2.add(mask, temp)
+
     return mask

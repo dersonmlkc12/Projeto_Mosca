@@ -17,7 +17,7 @@ def identifica_bordas(img_bovino):
     for i in range(0, res.shape[0]):
         for j in range(0, res.shape[1]):
             (r) = res[i, j]
-            if (r < 109):
+            if (r < 105):
                 res[i, j] = (0)
             else:
                 res[i, j] = (255)

@@ -7,6 +7,4 @@ def mascara_bovino(water,water1,img):
     res = cv2.bitwise_and(img, img, mask=thresh)
     res[water1 == -1] = [255, 255, 255]
 
-    masc = res.copy()
-
-    return masc
+    return res

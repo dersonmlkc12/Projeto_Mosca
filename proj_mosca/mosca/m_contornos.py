@@ -8,7 +8,7 @@ def regiao_int(imagem,img,pix):
 
     # Rotula as regiões conectadas da matriz(imagem)
     labels = measure.label(thresh, neighbors=4, background=255)
-
+    #print(labels)
     # Criação de um arranjo de qualquer formato contendo apenas zeros
     mask = np.zeros(thresh.shape, dtype="uint8")
 
@@ -20,9 +20,10 @@ def regiao_int(imagem,img,pix):
 
         # Caso contrário, construa a máscara de etiqueta
         labelMask = np.zeros(thresh.shape, dtype="uint8")
+
         labelMask[labels == label] = 255
+
         numPixels = cv2.countNonZero(labelMask)
-        #print("pixels", numPixels)
 
         # verifica o numero de  pixels de cada componente
         if numPixels > pix[0] and numPixels < pix[1]:
@@ -38,7 +39,7 @@ def regiao_int(imagem,img,pix):
     for i in range(0, res.shape[0]):
         for j in range(0, res.shape[1]):
             (b, g, r) = res[i, j]
-            if (r > 110 and g > 110 and  r > 110):
+            if (r > 110 and g > 110 and  b > 110):
                 masc[i, j] = (0, 0, 0)
 
     masc = cv2.cvtColor(masc, cv2.COLOR_BGR2GRAY)
